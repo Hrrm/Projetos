@@ -1,0 +1,84 @@
+#divIframe{
+	padding: 0px;
+	margin: 0px 10px 50px 10px;
+}
+
+@media only screen and (max-width: 600px){
+	iframe{
+		height: 150px;
+	}
+	/*DIV CONTÉM TODAS AS DIVS DE PROJETOS*/
+	#projetos{
+		margin: 50px 0px;
+	}
+
+	/*DIV COM INFORMAÇÕES + GAME*/
+	#projetoGame{
+		background-color: rgba(0,0,0,0.8);
+		color: white;
+		border: solid;	
+	}
+	ul{
+		list-style-type: circle;
+		margin-bottom: 25px;
+	}
+	.descricao{
+		text-indent: 1em;
+	}
+	/*ALTERA A APARÊNCIA SOMENTE DO BTN FULLSCREEN*/
+	#btnFullScreen{
+		margin: 20px 0px;
+		color:white;
+		background: green;
+	}
+	#btnFullScreen:hover{
+		background: grey;
+	}
+}
+
+@media only screen and (min-width: 601px){
+	/*CONFIGURAÇÕES DA JANELA DO GAME*/
+	iframe{
+		height: 500px;
+		vertical-align: middle;
+	}
+
+	/*DIV CONTÉM TODAS AS DIVS DE PROJETOS*/
+	#projetos{
+		margin-bottom: 50px;
+	}
+
+	/*DIV COM INFORMAÇÕES + GAME*/
+	#projetoGame{
+		background-color: rgba(0,0,0,0.8);
+		color: white;
+		margin-top: 50px;
+		border: solid;	
+	}
+
+	/*ALINHA O TEXTO DENTRO DA DIV*/
+	p{
+		margin-right: 70px;
+		margin-left: 70px;
+	}
+	h3{
+		margin-left: 70px;
+	}
+	ul{
+		list-style-type: circle;
+		margin-left: 70px;
+		margin-bottom: 25px;
+	}
+	.descricao{
+		text-indent: 3em;
+	}
+	/*ALTERA A APARÊNCIA SOMENTE DO BTN FULLSCREEN*/
+	#btnFullScreen{
+		margin: 20px 0px;
+		color:white;
+		background: green;
+	}
+	#btnFullScreen:hover{
+		background: grey;
+	}
+}

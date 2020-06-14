@@ -1,0 +1,258 @@
+﻿<!DOCTYPE  html/>
+<html lang="pt-br">
+    
+    <!--CONFIGURAÇÕES DO HTML-->
+    <head>
+        <meta  charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial scale=1'x'" />
+
+        <title>Certificados</title>
+        <link rel="shortcut icon" href="https://i.imgur.com/oBMmuW2.png" />
+
+        <!--MATERIAL DESIGN LITE (MATERIAL LOCAL)-->
+        <link rel="stylesheet" href="../material design/material.min.css"/>
+        <script src="../material design/material.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+        <!--MATERIAL DESIGN LITE (LINK DIRETO DA NET)-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-light_green.min.css" />
+        <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+        <!--MEU CSS-->
+        <link rel="stylesheet" href="../css/classes.css"/>
+
+        <!--MEU JavaScript-->
+        <link rel="stylesheet" href="../Scripts/vtab_function.js" />
+    </head>
+
+    <!--CORPO DO HTML-->
+    <body>
+        
+        <!--DIV PRINCIPAL-->
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-drawer principal ">
+
+            <!--CABEÇALHO-->
+            <header class="mdl-layout__header mdl-layout__header--transparent" >
+
+                <!--LINHA DO CABEÇALHO ONDE ESTÁ O CONTEÚDO DO CABEÇALHO-->
+                <div class="mdl-layout__header-row">
+
+                    <button onclick="window.location.href='../index.html'" class="mdl-button mdl-js-button" style="color: #ffffff">
+                        Página Inicial
+                    </button>
+                    <div class="dropdown">
+                        <button class="mdl-button mdl-js-button" style="color: #ffffff">
+                            Certificados
+                        </button>
+                        <div class="dropdown-content">
+                            <button onclick="window.location.href='./rlsystem.html'" class="mdl-button mdl-js-button" style="width: 100%; text-align:left;">
+                                RL System
+                            </button>
+                            <button onclick="window.location.href='./unis.html'" class="mdl-button mdl-js-button" style="width: 100%; text-align:left;">
+                                Unis
+                            </button>
+                            <button onclick="window.location.href='./diversos.html'" class="mdl-button mdl-js-button" style="width: 100%; text-align:left;">
+                                Diversos
+                            </button>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="mdl-button mdl-js-button" style="color: #ffffff">
+                            Projetos
+                        </button>
+                        <div class="dropdown-content">
+                            <button onclick="window.open('http://projetoshenrique.myartsonline.com/','_blank')" class="mdl-button mdl-js-button botao_menu">Jogo Inatel</button>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!--MENU LATERAL-->
+            <div id="MENU LATERAL" class="mdl-layout__drawer">
+
+                <!--TÍTULO DO MENU-->
+                <span class="mdl-layout-title">Perfil Profissional</span>
+                <!--FOTO-->
+
+                <!--PADDING TIRA A FOTO DE PERTO DA GAVETA-->
+                <figure>
+
+                    <!--STYLE DEFINE O TAMANHO DA IMAGEM E O RADIUS DEFINE A FORMA REDONDA DA PÁGINA-->
+                    <img src="https://i.imgur.com/EaVcb4b.jpg" class="perfil" alt="Imagem Perfil"/>
+                    <figcaption> <br/> Henrique R. Martins</figcaption>
+                </figure>
+
+                <!--LINKS-->
+                <nav class="mdl-navigation">
+                    <a href="https://www.facebook.com/henrique.martins.50309277" target="_blank" class="mdl-navigation__link">Facebook</a>
+                    <a href="https://www.linkedin.com/in/henrique-martins-450643119/" target="_blank" class="mdl-navigation__link">Linkedin</a>
+                    <a href="mailto:henrique_rr_martins@hotmail.com?subject=Contato%20Perfil" class="mdl-navigation__link">
+                        Contate-me
+                    </a>
+                </nav>
+            </div>
+
+            <!--DIV QUE CONTÉM A CLASSE QUE FAZ TANTO O MAIN COMO O FOOTER FUNCIONAREM CORRETAMENTE-->
+            <div class="mdl-layout__content">
+                <!--CONTEÚDO PRINCIPAL DA PÁGINA POSSUI A CLASSE QUE GERENCIA O CONTEÚDO-->
+                <main>
+
+                    <!--GRADE MDL PARA CONTROLE DA LINHA CERTIFICADO CONCURSO INOVA UNIS-->
+                    <div class="mdl-grid grade_certificado">
+
+                        <!--COLUNA TIPO DIV(CERTIFICADO CONCURSO INOVA UNIS)-->
+                        <div class="mdl-cell mdl-grid-cell--1-col conteudo_certificado">
+
+                            <!--TÍTULO DO CERTIFICADO CONCURSO INOVA UNIS-->
+                            <div class="titulo">
+                                <span>Certificado Concurso Inova Unis</span>
+                            </div>
+
+                            <!--SEÇÃO ONDE FICA O CONTEÚDO(CERTIFICADO)-->
+                            <img src="https://i.imgur.com/lVBKchN.png" alt="Certificado Concurso Inova Unis" />
+                        </div>
+                    </div>
+
+                    <!--GRADE MDL PARA CONTROLE DA LINHA CERTIFICADO Mesa Redonda - Empreendendo com TI-->
+                    <div class="mdl-grid grade_certificado">
+
+                        <!--COLUNA TIPO DIV(CERTIFICADO Mesa Redonda - Empreendendo com TI)-->
+                        <div class="mdl-cell mdl-grid-cell--1-col conteudo_certificado">
+
+                            <!--TÍTULO DO CERTIFICADO Mesa Redonda - Empreendendo com TI-->
+                            <div class="titulo">
+                                <span>Certificado Mesa Redonda - Empreendendo com TI</span>
+                            </div>
+
+                            <!--SEÇÃO ONDE FICA O CONTEÚDO(CERTIFICADO)-->
+                            <img src="https://i.imgur.com/WxdqS2J.png" alt="Certificado Mesa Redonda - Empreendendo com TI" />
+                        </div>
+                    </div>
+
+                    <!--GRADE MDL PARA CONTROLE DA LINHA CERTIFICADO Minicurso - Aplicações Web com Visual Studio-->
+                    <div class="mdl-grid grade_certificado">
+
+                        <!--COLUNA TIPO DIV(CERTIFICADO Minicurso - Aplicações Web com Visual Studio)-->
+                        <div class="mdl-cell mdl-grid-cell--1-col conteudo_certificado">
+
+                            <!--TÍTULO DO CERTIFICADO Minicurso - Aplicações Web com Visual Studio-->
+                            <div class="titulo">
+                                <span>Certificado Minicurso - Aplicações Web com Visual Studio</span>
+                            </div>
+
+                            <!--SEÇÃO ONDE FICA O CONTEÚDO(CERTIFICADO)-->
+                            <img src="https://i.imgur.com/bMVlxZ5.png" alt="Certificado Minicurso - Aplicações Web com Visual Studio" />
+                        </div>
+                    </div>
+
+                    <!--GRADE MDL PARA CONTROLE DA LINHA CERTIFICADO Minicurso - Desenvolvimento de Aplicativos Mobile-->
+                    <div class="mdl-grid grade_certificado">
+
+                        <!--COLUNA TIPO DIV(CERTIFICADO Minicurso - Desenvolvimento de Aplicativos Mobile)-->
+                        <div class="mdl-cell mdl-grid-cell--1-col conteudo_certificado">
+
+                            <!--TÍTULO DO CERTIFICADO Minicurso - Desenvolvimento de Aplicativos Mobile-->
+                            <div class="titulo">
+                                <span>Certificado Minicurso - Desenvolvimento de Aplicativos Mobile</span>
+                            </div>
+
+                            <!--SEÇÃO ONDE FICA O CONTEÚDO(CERTIFICADO)-->
+                            <img src="https://i.imgur.com/tpDYRC8.png" alt="Certificado Minicurso - Desenvolvimento de Aplicativos Mobile" />
+                        </div>
+                    </div>
+
+                    <!--GRADE MDL PARA CONTROLE DA LINHA CERTIFICADO Minicurso - Desenvolvimento de Jogos-->
+                    <div class="mdl-grid grade_certificado">
+
+                        <!--COLUNA TIPO DIV(CERTIFICADO Minicurso - Desenvolvimento de Jogos)-->
+                        <div class="mdl-cell mdl-grid-cell--1-col conteudo_certificado">
+
+                            <!--TÍTULO DO CERTIFICADO Minicurso - Desenvolvimento de Jogos-->
+                            <div class="titulo">
+                                <span>Certificado Minicurso - Desenvolvimento de Jogos</span>
+                            </div>
+
+                            <!--SEÇÃO ONDE FICA O CONTEÚDO(CERTIFICADO)-->
+                            <img src="https://i.imgur.com/KZMpkON.png" alt="Certificado Minicurso - Desenvolvimento de Jogos" />
+                        </div>
+                    </div>
+
+                    <!--GRADE MDL PARA CONTROLE DA LINHA CERTIFICADO Palestra Aplicativos Móveis - Como iniciar-->
+                    <div class="mdl-grid grade_certificado">
+
+                        <!--COLUNA TIPO DIV(CERTIFICADO Palestra Aplicativos Móveis - Como iniciar)-->
+                        <div class="mdl-cell mdl-grid-cell--1-col conteudo_certificado">
+
+                            <!--TÍTULO DO CERTIFICADO Palestra Aplicativos Móveis - Como iniciar-->
+                            <div class="titulo">
+                                <span>Certificado Palestra Aplicativos Móveis - Como iniciar</span>
+                            </div>
+
+                            <!--SEÇÃO ONDE FICA O CONTEÚDO(CERTIFICADO)-->
+                            <img src="https://i.imgur.com/IFWlxop.png" alt="Certificado Palestra Aplicativos Móveis - Como iniciar" />
+                        </div>
+                    </div>
+
+                    <!--GRADE MDL PARA CONTROLE DA LINHA CERTIFICADO Palestra Gestão de Carreiras de TI-->
+                    <div class="mdl-grid grade_certificado">
+
+                        <!--COLUNA TIPO DIV(CERTIFICADO Palestra Gestão de Carreiras de TI)-->
+                        <div class="mdl-cell mdl-grid-cell--1-col conteudo_certificado">
+
+                            <!--TÍTULO DO CERTIFICADO Palestra Gestão de Carreiras de TI-->
+                            <div class="titulo">
+                                <span>Certificado Palestra Gestão de Carreiras de TI</span>
+                            </div>
+
+                            <!--SEÇÃO ONDE FICA O CONTEÚDO(CERTIFICADO)-->
+                            <img src="https://i.imgur.com/hKG5b3N.png" alt="Palestra Gestão de Carreiras de TI" />
+                        </div>
+                    </div>
+                </main>
+
+                <!--RODAPÉ DO TIPO MEGA FOOTER CONTENDO TOPO MEIO E BAIXO-->
+                <footer class="mdl-mega-footer">
+
+                    <!--SEÇÃO TOPO DO MEGA FOOTER-->
+                    <div class="mdl-mega-footer--top-section">
+
+                        <!--SPAN QUE USA CLASSE DE LOGO PARA ESTILIZAR UMA LOGO-->
+                        <span class="mdl-logo">Henrique Rodrigues Ribeiro Martins</span>
+
+                    </div>
+
+                    <!--SEÇÃO DO MEIO DO MEGA FOOTER-->
+                    <div class="mdl-mega-footer--middle-section">
+
+                        <!--SEÇÃO QUE CRIA UMA LISTA DE LINKS QUE EM DISPOSITIVO PEQUENO TRANSFORMA EM DROPDOWN LIST-->
+                        <!--ESTA SEÇÃO APRESENTA UM TÍTULO E OS LINKS UM EM CIMA DO OUTRO-->
+                        <div class="mdl-mega-footer--drop-down-section">
+
+                            <!--INPUT QUE FAZ A TRANSFORMAÇÃO DO TÍTULO DA LIST PARA DROPDOWN EM DISPOSITIVOS PEQUENOS-->
+                            <input type="checkbox" class="mdl-mega-footer--heading-checkbox" checked>
+
+                            <!--TÍTULO(CABEÇALHO) DA LISTA DE LINKS-->
+                            <h1 class="mdl-mega-footer--heading">Redes Sociais</h1>
+
+                            <!--UNORDERED LIST COM A CLASSE MDL QUE ESTILIZA OS LINKS-->
+                            <ul class="mdl-mega-footer--link-list">
+                                <li><a href="https://www.facebook.com/henrique.martins.50309277" target="_blank" class="mdl-navigation__link">Facebook</a></li>
+                                <li><a href="https://www.linkedin.com/in/henrique-martins-450643119/" target="_blank" class="mdl-navigation__link">Linkedin</a></li>
+                                <li>
+                                    <a href="mailto:henrique_rr_martins@hotmail.com?subject=Contato%20Perfil" class="mdl-navigation__link">
+                                        Contate-me
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!--SEÇÃO DE BAIXO DO MEGA FOOTER(DESATIVADO POR COMENTÁRIO)-->
+                    <!--DESATIVADO NÃO ESTÁ SENDO USADO
+                <div class="mdl-mega-footer--bottom-section"></div>
+            -->
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>

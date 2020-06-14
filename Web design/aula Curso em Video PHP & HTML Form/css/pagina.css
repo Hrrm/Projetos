@@ -1,0 +1,79 @@
+#tituloPerfil{
+    width: 100%;
+    text-align: center;
+    color: grey;
+    margin-top: 20px;
+}
+
+#fotoPerfil{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: 50px;
+    border-radius: 50%;
+    border-style: double;
+    border-width: 4px;
+    border-color: cyan;
+}
+
+#textoPerfil{
+    color: white;
+    position: absolute;
+    left: 50%;
+    margin-top: 290px;
+    margin-left: -100px;
+    text-align: left;
+}
+
+#gaveta_conteudo{
+    height: 100%;
+}
+
+#gaveta{
+    background-color: black;
+    height: 100%;
+}
+
+#conteudo{
+    background-color: blue;
+    height: 100%;
+}
+
+#formacao{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 70%;
+    width: 70%;
+    margin-top: -20%;
+    margin-left: -35%;
+    background-color: white;
+}
+
+#tabBotao{
+        margin: 0%;
+        padding: 0%;
+}
+
+.conteudoPrincipal{
+    position: absolute;
+    width: 98%;
+    height:90%;
+    left:2%;
+    border-radius: 0.5%;
+    visibility: hidden;
+}
+
+#rodape{
+    background-color: red;
+    height: 10%;
+}
+
+/*BORDAS EM GERAL*/
+.borda{
+    border-size: 2px; 
+    border-color: black;
+    border-style: solid;
+}

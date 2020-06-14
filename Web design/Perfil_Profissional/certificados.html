@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--MEU JS-->
+	<script src="loading.js"></script>
+	<script src="comandos.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119993046-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-119993046-1');
+	</script>
+	
+	<title>Perfil - Henrique Martins</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Language" content="pt-br">
+
+	<!--3 LINKS REL DE BOOTSTRAP: COMP AND MINI CSS, OPTIONAL THEME, COMP AND MIN JAVASCRIPT-->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+	<!--MEU CSS-->
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<link rel="stylesheet" type="text/css" href="css/certificado.css">
+</head>
+
+<!--BODY-->
+<body class="container" onload="carregarPagCertificado(); posicionaImagensSlide();defineImagensSlide();" onresize="carregarPagCertificado(); posicionaImagensSlide();defineImagensSlide();">
+	<!--HEADER-->
+	<header class="container" >
+		<div class="row align-items-center" id="linhaCabecalho">
+			<div class="btn-group-md">
+				<a href="index.html"><div type="button" class="btn btn-secondary botao">Perfil</div></a>
+				<a href="projetos.html"><div type="button" class="btn btn-secondary botao ">Projetos</div></a>
+				<a href="#" class="btn btn-secondary botao">Certificados</a>
+				<div type="button" class="btn btn-secondary botao" id="contato">Contate-me
+					<div id="listaMenu">
+						<a href="https://www.facebook.com/henrique.martins.50309277" target="_blank">
+							<div>
+								Facebook
+							</div>
+							
+						</a>
+						<a href="https://www.linkedin.com/in/henrique-martins-450643119/" target="_blank">
+							<div>
+								Linkedin
+							</div>
+						</a>
+						<a href="mailto:henrique_rr_martins@hotmail.com?subject=Contato%20Site">
+							<div>
+								E-mail
+							</div>
+						</a>
+					</div>
+				</div>						
+			</div>
+		</div>
+	</header><!-- /header -->
+	<!--MAIN-->
+	<main class="container" style="padding:0px" >
+		<div class="col-md-12" align="center" id="divCertificado">
+				<h2>Certificados</h2>
+				<p>Dentro do Slider abaixo seguem todos certificados que tenho referente a minha formação e sejam relevantes para a área da TI, entre eles os mais importantes foram conquistados no período que estive cursando Analise e Desenvolvimento de Sistemas e no período de 6 meses após o termino da minha faculdade.</p>
+				<button type="button" class="btn btn-secondary botao" onclick="slideFull();" id="btnFullScreen">Full Screen</button>
+			<div class="col-md-12">
+				<div class="col-md-3">			
+				</div>
+				<div class="col-md-6" id="slider">
+					<img alt="HTML 5 Online" class="imagem" src="">
+					<img alt="CSS Online" class="imagem">
+					<img alt="Fundamentos do C# Online" class="imagem" src="">
+					<img alt="C# Orientado a Objetos" class="imagem" src="">	
+					<img alt="MySQL Online" class="imagem" src="">
+					<img alt="Java Básico Online" class="imagem">
+					<img alt="Palestra: Gestão de Carreira de TI" class="imagem" src="">
+					<img alt="Aplicações Web Com Visual Studio" class="imagem" src="">
+					<img alt="Desenvolvimento de Jogos" class="imagem" src="">
+					<img alt="Appinventor: Desenvolvimento de Aplicativos Mobile" class="imagem" src="">
+					<img alt="Aplicativos Móveis: como iniciar" class="imagem" src="">
+					<img alt="Concurso Inova Unis" class="imagem" src="">
+					<img alt="Mesa Redonda: Empreendendo com TI" class="imagem" src="">
+					<img alt="Montagem e Manutenção de Computadores e Redes" class="imagem" src="">
+					<img alt="Workshop de Montagem e Manutenção de Computadores e Redes" class="imagem" src="">
+					<img alt="Inglês Pré-Intermediário" class="imagem" src="">
+					<img alt="Espanhol Pré-Intermediário" class="imagem" src="">
+					<img alt="Startup Weekend - Varginha" class="imagem" src="">
+					<img alt="Microsoft Office Pack" class="imagem" src="">					
+					<img alt="Digitação - Microlins" class="imagem" src="">
+					<img alt="Digitação - Interdata" class="imagem" src="">
+					<img alt="CSC: Registro Acadêmico, Faturamento e Sistema TOTVS" class="imagem" src="">
+					<div class="col-md-2" id="previous" onclick="rolagemPreview();">
+						<img src="imagens/previous.png" alt="">
+					</div>
+					<div class="col-md-2" id="next" onclick="rolagemNext();">
+						<img src="imagens/next.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</main>
+	<footer class="container">
+		<div class="col-md-12" id="divRodape">
+			Todos os direitos reservados.
+		</div>			
+	</footer>
+	
+</body>
+</html>
+

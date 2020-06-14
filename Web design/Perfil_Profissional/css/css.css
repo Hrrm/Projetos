@@ -1,0 +1,238 @@
+/*HTM + CORPO DO CONTEÚDO*/
+html{
+	height: 100%;
+	background: url("https://i.imgur.com/uy8kAVc.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+body{
+	background: rgba(0,0,0,0);
+	margin: 0px;
+	padding: 0px;
+}
+
+/*CABEÇALHO DA PÁGINA*/
+header{
+	background-color: #fff;
+	margin: 0px;
+}
+
+/*TÍTULOS*/
+h2{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+h3{
+	font-size: 18px;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+p{
+	text-align: justify;
+}
+
+/*LINKS*/
+a{
+	color: #666;
+	text-decoration: none;
+}
+a:link{
+	color: #666;
+	text-decoration: none;
+}
+a div:hover{
+	text-decoration: none;
+	background-color: grey;
+	color: white;
+}
+a:visited{
+	color: #666;
+	text-decoration: none;
+}
+a:active{
+	color: #666;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 600px){
+	/*DIV RESPONSÁVEL PELA LINHA DO BOOTSTRAP*/
+	#linhaCabecalho{
+		padding: 10px;
+	}
+
+
+	/*DROPDOWN LIST DO MENU*/
+	#listaMenu{
+		overflow: hidden;
+		position: absolute;
+		background-color: white;
+		margin-left: -5px;
+		max-height: 0px;
+		width: 91px;
+		padding: 0px;
+	}
+
+	/*BOTÕES DO MENU*/
+	.botao{
+		margin: 0px;
+		padding: 5px 5px;
+		font-family: sans-serif;
+		font-weight: bold;
+		font-size: 14px; 
+		color: #666;
+		border: none;
+		border-color: grey;
+		background-color: rgba(255,255,255,0);
+		border-radius: 15%;
+	}
+	.botao:hover{
+		background-color: grey;
+		color: white;
+	}
+	/*RESPONSÁVEL POR FAZER APARECER O MENU*/
+	.botao:hover #listaMenu{
+		transition: max-height 1s ease-in;
+		display: block;
+		color: #666;
+		border: solid;
+		border-width: 1px;
+		max-height: 500px;
+	}
+	.botao:hover div{
+		padding:3px 0px;
+	}
+
+	#contato #listaMenu{
+		width: 87px;
+	}
+	/*DIV MAIN*/
+	main{
+		font-size: 14px;
+	}
+
+	span{
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+	
+	/*DIV FOOTER*/
+	footer{
+		height: 50px;
+		background-color: grey;
+		text-align: center;
+		color: white;
+		border: solid;
+		border-width: 1px;
+	}
+
+	#divRodape{
+		margin-top: 20px;
+		font-size: 12px;
+	}
+
+	#teste{
+		width: 100px;
+		height: 600px;
+		max-height: 100px;
+		background: black;
+		transition: max-height 2s ease-in;
+	}
+
+	#teste:hover{
+		max-height: 500px;
+	}
+}
+
+@media only screen and (min-width: 601px){
+	/*DIV RESPONSÁVEL PELA LINHA DO BOOTSTRAP*/
+	#linhaCabecalho{
+		padding: 20px;
+	}
+
+
+	/*DROPDOWN LIST DO MENU*/
+	#listaMenu{
+		overflow: hidden;
+		position: absolute;
+		background-color: white;
+		margin-left: -10px;
+		max-height: 0px;
+		width: 160px;
+		padding: 0px;
+		z-index: 1;
+	}
+
+	/*BOTÕES DO MENU*/
+	.botao{
+		margin: 25px 0px;
+		padding: 5px 10px;
+		font-family: sans-serif;
+		font-weight: bold;
+		font-size: 24px; 
+		color: #666;
+		border: none;
+		border-color: grey;
+		background-color: rgba(255,255,255,0);
+		border-radius: 15%;
+	}
+	.botao:hover{
+		background-color: grey;
+		color: white;
+	}
+	/*RESPONSÁVEL POR FAZER APARECER O MENU*/
+	.botao:hover #listaMenu{
+		transition: max-height 1s ease-in;
+		display: block;
+		color: #666;
+		border: solid;
+		border-width: 1px;
+		max-height: 500px;
+	}
+	.botao:hover div{
+		padding:3px 0px;
+	}
+
+	#contato #listaMenu{
+		width: 152px;
+	}
+	/*DIV MAIN*/
+	main{
+		font-size: 18px;
+	}
+	span{
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	
+	/*DIV FOOTER*/
+	footer{
+		height: 60px;
+		background-color: grey;
+		color: white;
+		border: solid;
+		text-align: center;
+	}
+
+	#divRodape{
+		margin: 15px 0px;
+		display: table-cell;
+		vertical-align: middle;
+		font-size: 16px;
+	}
+
+	#teste{
+		width: 100px;
+		height: 600px;
+		max-height: 100px;
+		background: black;
+		transition: max-height 2s ease-in;
+	}
+
+	#teste:hover{
+		max-height: 500px;
+	}
+}

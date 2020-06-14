@@ -1,0 +1,10 @@
+@keyframes btnAnimacao{
+	100%{
+		background-color: red;
+			margin-top: 10px;
+			border: 2px;
+			border-left: 5px;
+			border-style: solid;
+			text-indent: 5px;
+		}
+}

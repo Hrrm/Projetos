@@ -1,0 +1,52 @@
+html{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+
+header{
+	margin: 0px;
+	background-color: green;
+	width: 100%;
+	height: 100px;
+	border-bottom: 4px solid;
+}
+
+footer{
+	padding-top: 15px;
+	width: 100%;
+	height: 10%;
+	background-color: #12E5CF;
+	text-align: center;
+}
+
+#menu{
+	width: 100%;
+}
+
+#menu .btnMenu{
+	border-radius: 5px;
+	color: black;
+	padding: 2px;
+	background-color: grey;
+	border: 2px;
+	border-right: 5px;
+	border-style: solid;
+	font-size: 24px;
+	display: inline;
+}
+
+#menu .btnMenu:hover{
+	background-color: green;
+	border: 2px;
+	border-right: 5px;
+	border-style: solid;
+    animation: btnAnimacao 0.1s;
+    animation-fill-mode: forwards;
+}
+

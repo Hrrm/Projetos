@@ -1,0 +1,410 @@
+﻿<!DOCTYPE  html/>
+<html lang="pt-br">
+    
+    <!--CONFIGURAÇÕES DO HTML-->
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial scale=1'x'" />
+
+    <title>Henrique Martins</title>
+    <link rel="shortcut icon" href="https://i.imgur.com/oBMmuW2.png" />
+    
+    <!--MATERIAL DESIGN LITE (MATERIAL LOCAL)-->
+    <link rel="stylesheet" href="material design/material.min.css" />
+    <script src="./material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <!--MATERIAL DESIGN LITE (LINK DIRETO DA NET)-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-light_green.min.css" />
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+    <!--MEU CSS-->
+    <link rel="stylesheet" href="css/classes.css" />
+
+    <!--MEU JavaScript-->
+    <link rel="stylesheet" href="scripts/vtab_function.js" />
+</head>
+
+    <!--CORPO DO HTML-->
+    <body>
+        
+        <!--DIV PRINCIPAL-->
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-drawer principal ">
+
+            <!--CABEÇALHO-->
+            <header class="mdl-layout__header mdl-layout__header--transparent">
+
+                <!--LINHA DO CABEÇALHO ONDE ESTÁ O CONTEÚDO DO CABEÇALHO-->
+                <div class="mdl-layout__header-row">
+
+                    <button onclick="window.location.href='./index.html'" class="mdl-button mdl-js-button" style="color: #ffffff;">
+                        Página Inicial
+                    </button>
+                    <div class="dropdown">
+                        <button class="mdl-button mdl-js-button" style="color: #ffffff">
+                            Certificados
+                        </button>
+                        <div class="dropdown-content">
+                            <button onclick="window.location.href='./paginas/rlsystem.html'" class="mdl-button mdl-js-button botao_menu">
+                                RL System
+                            </button>
+                            <button onclick="window.location.href='./paginas/unis.html'" class="mdl-button mdl-js-button botao_menu">
+                                Unis
+                            </button>
+                            <button onclick="window.location.href='./paginas/diversos.html'" class="mdl-button mdl-js-button botao_menu">
+                                Diversos
+                            </button>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="mdl-button mdl-js-button" style="color: #ffffff">
+                            Projetos
+                        </button>
+                        <div class="dropdown-content">
+                            <button onclick="window.open('http://projetoshenrique.myartsonline.com/','_blank')" class="mdl-button mdl-js-button botao_menu">Jogo Inatel</button>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!--MENU LATERAL-->
+            <div class="mdl-layout__drawer">
+
+                <!--TÍTULO DO MENU-->
+                <span class="mdl-layout-title">Perfil Profissional</span>
+                <!--FOTO-->
+
+                <!--PADDING TIRA A FOTO DE PERTO DA GAVETA-->
+                <figure>
+
+                    <!--STYLE DEFINE O TAMANHO DA IMAGEM E O RADIUS DEFINE A FORMA REDONDA DA PÁGINA-->
+                    <img src="https://i.imgur.com/EaVcb4b.jpg" class="perfil" alt="Imagem Perfil"/>
+                    <figcaption> <br/> Henrique R. Martins</figcaption>
+                </figure>
+
+
+                <!--LINKS-->
+                <nav class="mdl-navigation">
+                    <a href="https://www.facebook.com/henrique.martins.50309277" target="_blank" class="mdl-navigation__link">Facebook</a>
+                    <a href="https://www.linkedin.com/in/henrique-martins-450643119/" target="_blank" class="mdl-navigation__link">Linkedin</a>
+                    <a href="mailto:henrique_rr_martins@hotmail.com?subject=Contato%20Perfil" class="mdl-navigation__link">
+                        Contate-me
+                    </a>
+                </nav>
+            </div>
+
+            <!--DIV QUE CONTÉM A CLASSE QUE FAZ TANTO O MAIN COMO O FOOTER FUNCIONAREM CORRETAMENTE-->
+            <div class="mdl-layout__content">
+                <!--CONTEÚDO PRINCIPAL DA PÁGINA POSSUI A CLASSE QUE GERENCIA O CONTEÚDO-->
+                <main>
+
+                    <!--GRADE MDL PARA CONTROLE DA LINHA PERFIL-->
+                    <div class="mdl-grid grade">
+
+                        <!--COLUNA TIPO DETAIL(PERFIL E APRESENTAÇÃO)-->
+                        <div class="mdl-cell mdl-grid-cell--1-col conteudo">
+                            <!--TÍTULO DO PERFIL, UMA PEQUENA APRESENTAÇÃO-->
+                            <div class="titulo">
+                                <span>Sobre Mim</span>
+                            </div>
+
+                            <!--SEÇÃO ONDE FICA O CONTEÚDO(PERFIL E APRESENTAÇÃO)-->
+                            <section id="sobre_mim">
+                                <p>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resido em Recife, onde curso pós graduação de especialização em desenvolvimento C#.
+									Atualmente trabalho como Auxiliar de dados utilizando PL/SQL e SQL para criar relatórios que auxiliam na tomada de decisão
+									das equipes de logítica, auditoria e gerência. Esses SQL's são liberados para colaboradores atraves do software legao da empresa
+									e também são reutilizados para o Software de gestão legado que realiza um processamento de ETL para apresentação desses dados
+									em formato de gráfico. Também realizo manutenção nas rotinas em PL/SQL que processam as informações que serão salvas no DWBI
+									da companhia. Auxiliei no treinamento e alguns estagiários com SQL e também na criação do banco que utilizaram para um
+									App de reunião que desenvolveram para a companhia e tento interagir muito com eles para absorver algum conhecimento na área de
+									desenvolvimento.
+								</p>
+								<p>
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Em fevereiro de 2018 iniciei minha carreira como instrutor lecionando
+                                    Informatica Básica no Senac.
+                                    Realizo manutenção em computadores, notebooks e redes e faço alguns trabalhos pessoais de Webdesign
+                                    e desenvolvimento em C#.
+                                </p>
+                                <p>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Demorei um pouco para descobrir minha vocação. Antes de 2014 não tive experiência alguma
+                                    com programação até ter o primeiro contato no mesmo ano. Em 2015 comecei a cursar Analise e Desenvolvimento
+                                    de Sistemas no Unis e construi uma boa base. A princípio tentei me especializar em Java, mas o mercado de trabalho
+                                    pela região não oferecia oportunidade nessa área, foi ai que experimentei outras linguagens e passei a estudar C#,
+                                    HTML, CSS, JavaScript e PHP, acabei me apaixonando por cada uma dessas linguagens.
+                                </p>
+                                <p>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nada melhor do que ser levado pela sua paixão e a minha eram jogos. Lembro-me de que querer desenvolver meus próprios
+                                    projetos, isso me levou a faculdade e lá amadureci, aprendendo a gostar tanto de desenvolvimento, como de resolver
+                                    problemas no cotidiano. Hoje em dia tento buscar sempre novos conhecimentos e aperfeiçoar o que já aprendi.
+                                </p>
+                            </section>
+                        </div>
+                    </div>
+
+                    <!--GRADE MDL PARA CONTROLE DA COLUNA(FORMAÇÃO ACADÊMICA)-->
+                    <div class="mdl-grid grade">
+
+                        <!--COLUNA TIPO DETAIL(FORMAÇÃO ACADÊMICA)-->
+                        <div class="mdl-cell mdl-grid-cell--1-col conteudo">
+
+                            <div class="titulo">
+                                <span>Formação Acadêmica</span>
+                            </div>
+
+                            <!--LISTA COM CONTEÚDO DA COLUNA(FORMAÇÃO ACADÊMICA)-->
+                            <ul>
+                                <li>
+                                    <p>
+                                        Pós-Graduação de especialização em desenvolvimento C#: Cursando
+                                        <br />(Unileya)
+                                    </p>
+                                </li>
+								<li>
+                                    <p>
+                                        Profissionalizante em desenvolvimetno de games: Trancado
+                                        <br />(Saga)
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Superior Tecnólogo completo em Analise e Desenvolvimento de Sistemas: 2,5 anos
+                                        <br />(Centro Universitário do Sul de Minas)
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Superior incompleto em Direito: 1,5 anos
+                                        <br />(Universidade Maurício de Nassau)
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Técnico de Manutenção de Hardware e Redes
+                                        <br />(Microlíns Olinda/Pernambuco, conclusão em 2010)
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--GRADE MDL PARA CONTROLE DA COLUNA(QUALIFICAÇÕES E ATIVIDADES COMPLEMENTARES)-->
+                    <div class="mdl-grid grade">
+                        <!--COLUNA TIPO DETAIL(QUALIFICAÇÕES E ATIVIDADES COMPLEMENTARES)-->
+                        <div class="mdl-cell mdl-grid-cell--1-col conteudo">
+
+                            <!--TÍTULO DA COLUNA-->
+                            <div class="titulo">
+                                <span>Qualificações e Atividades Complementares</span>
+                            </div>
+
+                            <!--LISTA COM CONTEÚDO DA COLUNA(QUALIFICAÇÕES E ATIVIDADES COMPLEMENTARES)-->
+                            <ul>
+                                <li>
+                                    <p>
+                                        Certificado Fundamentos do C#;
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Certificado Curso de C# Orientado a Objetos;
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Certificado Java Básico;
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Certificado HTML 5;
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Certificado CSS;
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Certificado MySQL;
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Certificado de Participação Concurso Inovação: Inova Unis;
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Certificado Capacitação Integração Institucional (Unis);
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Certificado Participação do Startup Weekend Varginha;
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Certificado Mesa Redonda: Empreendendo com TI;
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Certificado Minicurso Aplicações Web com Visual Studio;
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Certificado Minicurso Appinventor - Desenvolvimento de aplicativos mobile;
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Certificado Minicurso Desenvolvimento de jogos;
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Certificado Palestra Aplicativos Móveis: como iniciar;
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Certificado Palestra: Gestão de Carreiras de TI;
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Certificado Workshop de Montagem e Manutenção de Computadores e Redes;
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Certificado Digitação (Microlins);
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Certificado Digitação (Interdata);
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Certificado Espanhol – pré-intermediário;
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Certificado Inglês – pré-intermediário;
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Certificado Office 98;
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Certificado - CSC Registro Acadêmico, Faturamento e Sistema TOTVS
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Curso Cisco em Telecomunicações;
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Curso de Git & Github;
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Participação em maratona de desenvolvimento em 36 h na Inatel;
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Conhecimento em Java, Java FX, Interface nativa Swing (Java), C #, C++,
+                                        HTML, JavaScript, PHP, Python, Gerenciamento de Projetos, Metodologias de
+                                        Desenvolvimento Ágeis (Scrum), Git, GitHub, UML, SQL, MySQL, Apache, Business Model Canvas, Project Model Canvas,
+                                        Business Plan, Office, Adobe Acrobat, Excel Avançado;
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Conhecimento nas IDE’s: Android Studio, Visual Studio, NetBeans, DEV C++, Unity 5;
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Conhecimento Básico em Design, Animação 2D, técnicas de luz e sombra;
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Carteira de motorista categoria A/B;
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Aspirante a oficial da reserva formado no Centro de Preparação de Oficiais da Reserva do Recife/ CPOR-R;
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Conhecimento em Softwares de Gerenciamento de Informação: TOTVS, CadSoft, BlackBoard.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </main>
+
+                <!--RODAPÉ DO TIPO MEGA FOOTER CONTENDO TOPO MEIO E BAIXO-->
+                <footer class="mdl-mega-footer">
+
+                    <!--SEÇÃO TOPO DO MEGA FOOTER-->
+                    <div class="mdl-mega-footer--top-section">
+
+                        <!--SPAN QUE USA CLASSE DE LOGO PARA ESTILIZAR UMA LOGO-->
+                        <span class="mdl-logo">Henrique Rodrigues Ribeiro Martins</span>
+
+                    </div>
+
+                    <!--SEÇÃO DO MEIO DO MEGA FOOTER-->
+                    <div class="mdl-mega-footer--middle-section">
+
+                        <!--SEÇÃO QUE CRIA UMA LISTA DE LINKS QUE EM DISPOSITIVO PEQUENO TRANSFORMA EM DROPDOWN LIST-->
+                        <!--ESTA SEÇÃO APRESENTA UM TÍTULO E OS LINKS UM EM CIMA DO OUTRO-->
+                        <div class="mdl-mega-footer--drop-down-section">
+
+                            <!--INPUT QUE FAZ A TRANSFORMAÇÃO DO TÍTULO DA LIST PARA DROPDOWN EM DISPOSITIVOS PEQUENOS-->
+                            <input type="checkbox" class="mdl-mega-footer--heading-checkbox" checked />
+
+                            <!--TÍTULO(CABEÇALHO) DA LISTA DE LINKS-->
+                            <h1 class="mdl-mega-footer--heading">Redes Sociais</h1>
+
+                            <!--UNORDERED LIST COM A CLASSE MDL QUE ESTILIZA OS LINKS-->
+                            <ul class="mdl-mega-footer--link-list">
+                                <li><a href="https://www.facebook.com/henrique.martins.50309277" target="_blank" class="mdl-navigation__link">Facebook</a></li>
+                                <li><a href="https://www.linkedin.com/in/henrique-martins-450643119/" target="_blank" class="mdl-navigation__link">Linkedin</a></li>
+                                <li>
+                                    <a href="mailto:henrique_rr_martins@hotmail.com?subject=Contato%20Perfil" class="mdl-navigation__link">
+                                        Contate-me
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!--SEÇÃO DE BAIXO DO MEGA FOOTER(DESATIVADO POR COMENTÁRIO)-->
+                    <!--DESATIVADO NÃO ESTÁ SENDO USADO
+                <div class="mdl-mega-footer--bottom-section"></div>
+            -->
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>

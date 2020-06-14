@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119993046-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-119993046-1');
+	</script>
+	
+	<title>Projetos - Henrique Martins</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Language" content="pt-br">
+
+	<!--3 LINKS REL DE BOOTSTRAP: COMP AND MINI CSS, OPTIONAL THEME, COMP AND MIN JAVASCRIPT-->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<!--MEU JAVASCRIPT-->
+	<script src="comandos.js"></script>
+	<script src="loading.js"></script>
+
+	<!--MEU CSS-->
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<link rel="stylesheet" type="text/css" href="css/projetos.css">
+</head>
+
+<!--BODY-->
+<body class="container" onload="iFrameWidth();" onresize="iFrameWidth();">
+	<!--HEADER-->
+	<header class="container" >
+		<div class="row align-items-center" id="linhaCabecalho">
+			<div class="btn-group-md">
+				<a href="index.html"><div type="button" class="btn btn-secondary botao">Perfil</div></a>
+				<a href="#"><div type="button" class="btn btn-secondary botao ">Projetos</div></a>
+				<a href="certificados.html" class="btn btn-secondary botao">Certificados</a>
+				<div type="button" class="btn btn-secondary botao" id="contato">Contate-me
+					<div id="listaMenu">
+						<a href="https://www.facebook.com/henrique.martins.50309277" target="_blank">
+							<div>
+								Facebook
+							</div>
+							
+						</a>
+						<a href="https://www.linkedin.com/in/henrique-martins-450643119/" target="_blank">
+							<div>
+								Linkedin
+							</div>
+						</a>
+						<a href="mailto:henrique_rr_martins@hotmail.com?subject=Contato%20Site">
+							<div>
+								E-mail
+							</div>
+						</a>
+					</div>
+				</div>						
+			</div>
+		</div>
+	</header><!-- /header -->
+	<!--MAIN-->
+	<main class="container" style="padding: 0px;">
+		<!--DIV CONTÉM TODAS AS DIVS DE PROJETOS-->
+		<div class="row" id="projetos">
+			<div class="col-md-12" id="projetoGame">
+				<h2 align="center">Projeto Game Inatel</h2>
+
+				<p><span>Nome do Game:</span> Porth'amRyddid</p>
+				<p><span>Tradução:</span> O título vem do Gales que significa Porta de entrada </p>
+				<p><span>Tema Proposto do Projeto:</span> Um novo mundo</p>
+					<h3>Comandos</h3>
+					<ul>
+					    <li><span>Movimentação e Pulo:</span> Setas direcionais</li>
+					    <li><span>Ataque:</span> Barra de Espaço</li>
+					</ul>		
+				<p class="descricao" align="justify">Esse projeto foi desenvolvido durante a realização do evento Coding Pizza & Glory realizado na Inatel. A competição acontece com grupos de até 5 pessoas, contando com participantes de áreas fora da programação, como sonoplastia e arte. É um excelente evento para pessoas sem experiência que têm interesse em participar da produção de um projeto de ritimo corrido.</p>
+				<p class="descricao">Após as palestras iniciais, os realizadores do evento liberam um tema que é trabalhado pelo grupo, passando pela criação da historia, divisão de tarefas e execução das atividades</p>
+				<p class="descricao">Por fim o produto do trabalho é avaliado, tanto pelos realizadores do evento, como pelo público.</p>
+
+				<!--
+					PARA ALINHAR O GAME NO MEIO USEI O ATRIBUTO ALIGN DENTRO DA DIV COM
+					O VALOR "center"
+				-->
+				<div class="row" align="center">
+					<div class="col-md-12">
+						<button type="button" class="btn btn-secondary botao" onclick="gameFull();" id="btnFullScreen">Full Screen</button>
+					</div>
+					<div class="col-md-2">
+					
+					</div>
+					<div class="col-md-8" id="divIframe">
+						<iframe src="http://projetoshenrique.myartsonline.com"  id="game" allowfullscreen></iframe>
+					</div>							
+				</div>					
+			</div>		
+		</div>
+	</main>
+	<footer class="container">
+		<div class="col-md-12" id="divRodape">
+			Todos os direitos reservados.
+		</div>			
+	</footer>
+</body>
+</html>

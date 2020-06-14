@@ -1,0 +1,31 @@
+/*Meu CSS Animatable*/
+#teste{
+	position: absolute;
+	left: 0;
+	width: 300px;
+	height: 200px;
+	background-color: red;
+	/*Para executar a animação programada abaixo usa-se o:*/
+
+	/*-webkit-animation para Chrome, Safari, Opera*/
+	-webkit-animation: exemploAnimacao 5s infinite;
+	/*animation para navegadores padrão*/
+	animation: exemploAnimacao 5s infinite;
+}
+
+/*Sintax para utilizar o Animatable(animação em css) no site para os navegadores:*/
+/*Chrome, Safari, Opera*/
+@-webkit-keyframes exemploAnimacao {
+    from {background-color: green;}
+    to {background-color: white;}
+    50%{left: 300px;}
+}
+
+/* sintaxe padrão para outros navegadores */
+@keyframes exemploAnimacao {
+    from {background-color: green;}
+    to {background-color: white;}
+    50%{left: 300px;}
+}
+
+

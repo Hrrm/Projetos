@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Gerenciadores de Layout Básico II JavaFX.jnlp">
+  <information>
+    <title>Gerenciadores de Layout Básico II JavaFX</title>
+    <vendor>kuxoha</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Gerenciadores de Layout Básico II JavaFX" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="gerenciadores.de.layout.básico.ii.javafx.Principal"  name="Gerenciadores de Layout Básico II JavaFX" />
+  <update check="always"/>
+</jnlp>

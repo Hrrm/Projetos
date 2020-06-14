@@ -1,0 +1,11 @@
+C:\Users\henri\source\repos\Software\Software\bin\Debug\Software.exe.config
+C:\Users\henri\source\repos\Software\Software\bin\Debug\Software.exe
+C:\Users\henri\source\repos\Software\Software\bin\Debug\Software.pdb
+C:\Users\henri\source\repos\Software\Software\obj\Debug\Software.csprojResolveAssemblyReference.cache
+C:\Users\henri\source\repos\Software\Software\obj\Debug\Software.frmLogin.resources
+C:\Users\henri\source\repos\Software\Software\obj\Debug\Software.Properties.Resources.resources
+C:\Users\henri\source\repos\Software\Software\obj\Debug\Software.csproj.GenerateResource.Cache
+C:\Users\henri\source\repos\Software\Software\obj\Debug\Software.csproj.CoreCompileInputs.cache
+C:\Users\henri\source\repos\Software\Software\obj\Debug\Software.exe
+C:\Users\henri\source\repos\Software\Software\obj\Debug\Software.pdb
+C:\Users\henri\source\repos\Software\Software\obj\Debug\Software.frmGestao.resources

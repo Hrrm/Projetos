@@ -1,0 +1,1 @@
+Todos projetos nessa pasta foram desenvolvidos para aprender a API Java FX, somente para fins didáticos usando Netbeans.

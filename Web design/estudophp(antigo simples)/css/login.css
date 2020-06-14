@@ -1,0 +1,21 @@
+input{
+	width: 70%;
+	height: 100%;
+	padding: 0%;
+	margin: 0%;
+}
+label{
+	width: 100%;
+	margin: 0%;
+	padding: 0%;
+}
+
+input[type="submit"]{
+	margin-top: 20px;
+}
+
+
+
+#iDivForm{
+	margin: 20px;
+}

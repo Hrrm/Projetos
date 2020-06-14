@@ -1,0 +1,113 @@
+@media only screen and (max-width: 600px){
+	#divInfo{
+		padding: 0px;
+		background-color: rgba(0,0,0,0.8);
+		color: white;
+		border-style: solid;
+		margin-top: 50px;
+	}
+
+	#imgPerfil{
+		background-color: rgba(0,0,0,0.8);
+		color: white;
+		margin: 10px 10px;
+		height: 200px;
+		width: 200px;
+		border-style: solid;
+		border-color: black;
+		border-width: 2px;
+		border-radius: 50%;
+
+	}
+
+	#infoBasica{
+		color: white;
+	}
+	
+	#divApr{
+		background-color: rgba(0,0,0,0.8);
+		color: white;
+		border: solid;
+		margin-top: 50px;
+	}
+
+	#divApr p{
+		text-indent: 1em;
+	}
+
+	#divForm{
+		background-color: rgba(0,0,0,0.8);
+		color: white;
+		border: solid;
+		margin-top: 50px;
+	}
+
+	#divAtv{
+		background-color: rgba(0,0,0,0.8);
+		color: white;
+		margin-bottom: 50px;
+		border: solid;
+		margin-top: 50px;
+	}
+}
+
+@media only screen and (min-width: 601px){
+	#divInfo{
+		background-color: rgba(0,0,0,0.8);
+		color: white;
+		border-style: solid;
+		margin-top: 50px;
+	}
+
+	#imgPerfil{
+		background-color: rgba(0,0,0,0.8);
+		color: white;
+		margin: 25px 0px;
+		height: 220px;
+		width: 220px;
+		border-style: solid;
+		border-color: black;
+		border-width: 2px;
+		border-radius: 50%;
+
+	}
+
+	#infoBasica{
+		color: white;
+		margin: 20px 10px;
+	}
+
+	#infoBasica p{
+		margin-left: 50px;
+	}
+	
+	#divApr{
+		background-color: rgba(0,0,0,0.8);
+		color: white;
+		border: solid;
+		margin-top: 50px;
+	}
+
+	#divApr p{
+		text-indent: 1em;
+	}
+
+	#divForm{
+		background-color: rgba(0,0,0,0.8);
+		color: white;
+		border: solid;
+		margin-top: 50px;
+	}
+
+	#divForm p{
+		text-indent: 1em;
+	}
+
+	#divAtv{
+		background-color: rgba(0,0,0,0.8);
+		color: white;
+		margin-bottom: 50px;
+		border: solid;
+		margin-top: 50px;
+	}
+}
