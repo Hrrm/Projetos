@@ -1,0 +1,25 @@
+Nessa pasta serão postados alguns comandos que costumo utilizar no trabalho, claro, utilizando tabelas e campos fictícios.
+Obs.: vou lembrando e postando novos comandos e processos que realizo com o tempo.
+Comandos utilizando:
+Clausulas
+ -With
+ -Over partition by
+ -Rank
+Comandos
+ -Avg
+ -Percentile
+ -Ratio_to_report
+ -Etc
+Joins:
+ -Inner Join
+ -Left Join
+ -Right Join
+ -Natural Join
+ -Full Join
+ -Cross Join
+ -Natural Join
+Packages
+Functions
+Procedures
+Merge
+Criação de tabelas de Log

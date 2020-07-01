@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="350mm"
+   height="198.00002mm"
+   viewBox="0 0 350 198.00001"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="Nome Nova Pong.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient949">
+      <stop
+         style="stop-color:#2b6ba6;stop-opacity:1"
+         offset="0"
+         id="stop945" />
+      <stop
+         id="stop972"
+         offset="0.46121329"
+         style="stop-color:#2b6ba6;stop-opacity:1" />
+      <stop
+         style="stop-color:#e11c20;stop-opacity:1"
+         offset="0.46121329"
+         id="stop974" />
+      <stop
+         style="stop-color:#e11c20;stop-opacity:1"
+         offset="1"
+         id="stop947" />
+    </linearGradient>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter888"
+       x="-0.02377374"
+       width="1.0475475"
+       y="-0.07411614"
+       height="1.1482323">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.4526338"
+         id="feGaussianBlur890" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient949"
+       id="linearGradient951"
+       x1="73.412511"
+       y1="139.27555"
+       x2="258.44076"
+       y2="139.27555"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter992"
+       x="-0.027311374"
+       width="1.0546227"
+       y="-0.19794591"
+       height="1.3958918">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.1248275"
+         id="feGaussianBlur994" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="683.50554"
+     inkscape:cy="308.31327"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-99.000005)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot12"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion14"><rect
+           id="rect16"
+           width="348.57144"
+           height="125.71429"
+           x="291.42856"
+           y="145.48935" /></flowRegion><flowPara
+         id="flowPara18" /></flowRoot>    <path
+       style="fill:none;stroke:url(#linearGradient951);stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       d="m 74.083333,152.61311 c 3.02381,-1.51191 32.096207,-27.92001 86.178567,-26.45833 55.94048,1.5119 97.51785,21.92262 97.51785,21.92262"
+       id="path52"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csc"
+       inkscape:export-xdpi="240.94"
+       inkscape:export-ydpi="240.94" />
+    <text
+       id="text866"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.98888969px;line-height:1.25;font-family:Halo;-inkscape-font-specification:'Halo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.14034641;filter:url(#filter888)"
+       xml:space="preserve"
+       x="26.458334"
+       y="-65.76786"
+       transform="translate(8.3154761,-3.0238091)"
+       inkscape:export-xdpi="240.94"
+       inkscape:export-ydpi="240.94"><textPath
+         id="textPath864"
+         xlink:href="#path52"><tspan
+   id="tspan862"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.98888969px;font-family:Halo;-inkscape-font-specification:'Halo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.14034641">Nova Pong</tspan></textPath></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.98888969px;line-height:1.25;font-family:Halo;-inkscape-font-specification:'Halo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.14034641"
+       id="text30"
+       transform="translate(3.7797621,-6.0476191)"
+       inkscape:export-xdpi="240.94"
+       inkscape:export-ydpi="240.94"><textPath
+         xlink:href="#path52"
+         id="textPath54"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.98888969px;font-family:Halo;-inkscape-font-specification:'Halo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.14034641"><tspan
+   style="opacity:0.96;fill:#2b6ba6;fill-opacity:1"
+   id="tspan863">Nova</tspan> <tspan
+   style="fill:#e11c20;fill-opacity:1"
+   id="tspan931">Pong</tspan></textPath></text>
+    <path
+       sodipodi:nodetypes="csc"
+       inkscape:connector-curvature="0"
+       id="path976"
+       d="m 77.863095,154.88096 c 3.02381,-1.51191 32.096205,-27.16406 86.178565,-25.70238 55.94048,1.5119 100.54166,24.94643 100.54166,24.94643"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter992)"
+       inkscape:export-xdpi="240.94"
+       inkscape:export-ydpi="240.94" />
+  </g>
+</svg>
